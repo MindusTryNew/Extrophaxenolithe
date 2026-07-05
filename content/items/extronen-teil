@@ -1,0 +1,10 @@
+type: item
+name: Extronisches Teil
+description: Teil eines extronischen Materiales. 
+color: E8751A
+cost: 2
+hardness: 4
+flammability: 0.0
+explosiveness: 0.0
+radioactivity: 0.0
+charge: 0.7
