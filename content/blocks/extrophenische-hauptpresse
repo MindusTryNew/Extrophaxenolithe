@@ -1,0 +1,20 @@
+{
+  type: GenericCrafter
+  name: extrophenische-presse
+  localizedName: Extrophenische Hauptpresse
+  description: "Verarbeitet grundlegende Rohstoffe zu hochstabilen extronischen Teilen."
+  size: 2
+  hasPower: true
+  hasItems: true
+  craftTime: 120
+  consumes: {
+    power: 1.5
+    items: [
+      copper/6
+      lead/5
+      silicon/2
+    ]
+  }
+  outputItem: extronisches-teil/1
+  category: crafting
+}
