@@ -3,6 +3,6 @@
   displayName: "[cyan]Extropha[lime]xenolithe",
   author: "[cyan]Xtro[lime]phale",
   description: "Eine Mod, die [cyan]extrophaxenolithische [red]Technologien [clear]hinzufügt. BITTE DEN NEUSTEN RELEASE HERUNTERLADEN!",
-  version: "1.0.pre-beta",
+  version: "0.2.preview",
   minGameVersion: "158"
 }
