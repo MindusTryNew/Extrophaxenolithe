@@ -1,0 +1,42 @@
+type: GenericCrafter
+
+name: extronischer-zinkular-montierer
+
+localizedName: Extronischer Zinkular-Montierer
+
+description: Montiert Extronische Zinkular-Kerne aus hochentwickelten Materialien. Die komplexe Fertigung erfordert enorme Energiemengen und höchste Präzision.
+
+category: crafting
+
+size: 3
+
+health: 230
+
+craftTime: 270
+
+hasPower: true
+
+consumes: {
+    power: 8.0
+    items: [
+        extronisches-teil/3
+        silicon/3
+        titanium/2
+        metaglass/3
+        
+    ]
+}
+
+outputItem: extronischer-zinkular-kern/1
+
+requirements: [
+    copper/400
+    lead/350
+    graphite/250
+    silicon/300
+    titanium/200
+    xq/2
+]
+
+research: xq-generator
+researchCostMultiplier: 1.5

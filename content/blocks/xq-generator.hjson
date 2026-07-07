@@ -1,0 +1,41 @@
+type: GenericCrafter
+
+name: xq-generator
+
+localizedName: XQ-Generator
+
+description: Generiert langsam das Forschungsobjekt XQ. 
+
+category: crafting
+
+size: 4
+
+health: 200
+
+craftTime: 3000
+
+hasPower: true
+
+consumes: {
+    power: 25.0
+    items: [
+        copper/23
+        silicon/13
+        graphite/17
+        lead/32
+        metaglass/8
+        coal/5
+    ]
+}
+
+outputItem: xq/1
+
+requirements: [
+    copper/1600
+    lead/1200
+    silicon/900
+    graphite/800
+]
+
+research: core-shard
+researchCostMultiplier: 1.5

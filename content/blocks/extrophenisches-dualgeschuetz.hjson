@@ -1,0 +1,67 @@
+type: ItemTurret
+
+name: extrophenisches-dualgeschuetz
+
+localizedName: Extrophenisches Dual-Geschütz
+
+description: Verschießt zwei zielsuchende Extronik-Projektile in einem engen Fächer. Entwickelt zur präzisen Gruppenzerstörung.
+
+category: turret
+
+size: 3
+
+health: 190
+
+range: 252
+
+reload: 80
+
+inaccuracy: 0
+
+shootCone: 25
+
+rotateSpeed: 10
+
+recoil: 0.3
+
+shoot: {
+  shots: 2
+  shotDelay: 8
+}
+
+ammoTypes: {
+  extronisches-teil: {
+    type: MissileBulletType
+
+    damage: 23
+
+    speed: 4.2
+
+    lifetime: 60
+
+    homingPower: 0.18
+    homingRange: 100
+
+    weaveMag: 0
+    weaveScale: 0
+
+    frontColor: 7EE8FF
+    backColor: 3BD6FF
+
+    hitEffect: hitLaser
+    despawnEffect: hitLaser
+    
+    shootSound: shootSmall
+  }
+}
+
+requirements: [
+  copper/120
+  lead/80
+  silicon/60
+  xq/2
+]
+
+research: hail
+
+researchCostMultiplier: 1.4

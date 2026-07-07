@@ -1,0 +1,95 @@
+type: ItemTurret
+
+name: extrogenaler-quadralbeschleuniger
+
+localizedName: Extrogenaler Quadralbeschleuniger
+
+description: Beschleunigt sechs Extronik-Geschosse gleichzeitig auf extreme Geschwindigkeiten. Entwickelt für die Bekämpfung schwer gepanzerter Ziele.
+
+category: turret
+
+size: 5
+
+health: 3600
+
+range: 276
+
+reload: 120
+
+rotateSpeed: 1
+
+shootCone: 18
+
+recoil: 3
+
+targetAir: true
+
+targetGround: true
+
+shoot: {
+    type: ShootSpread
+    shots: 4
+    shotDelay: 2
+    spread: 3
+}
+
+ammoTypes: {
+    extronisches-teil: {
+        type: BasicBulletType
+
+        damage: 25
+        speed: 6
+        lifetime: 46
+
+        width: 8
+        height: 14
+
+        frontColor: 9EFFFF
+        backColor: 2CCBFF
+
+        hitEffect: hitBulletSmall
+        shootEffect: shootSmall
+        despawnEffect: hitBulletSmall
+        
+        shootSound: shootSmall
+    }
+
+    extronischer-zinkular-kern: {
+        type: BasicBulletType
+
+        damage: 60
+        speed: 12
+        lifetime: 23
+
+        width: 12
+        height: 18
+        
+        splashDamage: 10
+        splashDamageRadius: 16
+
+        pierce: true
+        pierceCap: 3
+
+        frontColor: DED8FF
+        backColor: 7A4DFF
+
+        hitEffect: hitBulletBig
+        shootEffect: shootBig
+        despawnEffect: explosion
+        
+        shootSound: shootBig
+    }
+}
+
+requirements: [
+    copper/750
+    lead/460
+    silicon/350
+    titanium/200
+    extronisches-teil/130
+    extronischer-zinkular-kern/45
+]
+
+research: zinkular-montierer
+
+researchCostMultiplier: 1.5

@@ -1,0 +1,41 @@
+type: Wall
+
+name: extrophenische-reaktionswand
+
+localizedName: Extrophenische Reaktionswand
+
+description: Eine instabile Extronik-Verbundwand. Bei strukturellem Versagen entlädt sie gespeicherte Energie explosiv.
+
+category: defense
+
+size: 2
+
+health: 600
+
+armor: 6
+
+chanceDeflect: 0.15
+
+flashHit: true
+
+flashColor: 7EE8FF
+
+destroyEffect: explosion
+
+hitEffect: hitLancer
+
+lightningChance: 0.08
+
+lightningDamage: 25
+
+lightningLength: 10
+
+requirements: [
+  copper/12
+  lead/8
+  extronisches-teil/5
+  xq/1
+]
+
+research: titanium-wall
+researchCostMultiplier: 1.6
