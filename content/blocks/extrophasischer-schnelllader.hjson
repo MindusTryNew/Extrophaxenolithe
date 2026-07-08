@@ -1,0 +1,75 @@
+type: ItemTurret
+
+name: extrophasischer-schnelllader
+
+localizedName: Extrophasischer Schnelllader
+
+description: Feuert einen ununterbrochenen Strom aus extrem schnell beschleunigten Zinkular-Projektilen. Entwickelt für maximale Feuerdichte.
+
+category: turret
+
+size: 4
+
+health: 1200
+
+range: 320
+
+reload: 0.5
+
+rotateSpeed: 15
+
+shootCone: 15
+
+recoil: 0.2
+
+inaccuracy: 15
+maxAmmo: 300
+
+hasLiquids: true
+hasPower: true
+
+liquidCapacity: 120
+
+consumes: {
+  power: 25.0
+  liquid: water/0.5
+}
+
+ammoTypes: {
+  extronischer-zinkular-kern: {
+    type: BasicBulletType
+
+    damage: 2
+
+    speed: 10
+    lifetime: 32
+
+    width: 7
+    height: 12
+
+    splashDamage: 1
+    splashDamageRadius: 6
+
+    ammoMultiplier: 90
+
+    frontColor: B8FFFF
+    backColor: 29B6FF
+
+    hitEffect: hitBulletSmall
+    shootEffect: shootSmall
+    despawnEffect: hitBulletSmall
+  }
+}
+
+requirements: [
+  copper/900
+  lead/700
+  silicon/600
+  graphite/450
+  titanium/300
+  extronischer-zinkular-kern/100
+]
+
+research: extrogenaler-quadralbeschleuniger
+
+researchCostMultiplier: 1.5
